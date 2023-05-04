@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--MAIN MENU-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Eddie</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="select()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="select()">CONTACT INFORMATION</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--HOME SECTION-->
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/cara.png" alt="">
+            </div>
+            <h1>Eddie Jimenez</h1>
+            <h2>Software developer</h2>
+            <div class="networks">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/in/eddie-jimenez-366165267/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/EddieAJimenez"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--ABOUT ME SECTION-->
+    <section id="aboutme" class="aboutme">
+        <div class="container-section">
+            <h2>About me</h2>
+            <p><span>Hello, I am Eddie Jimenez.</span> Software developer in progress, in my last year of school to get my degree, basic knowledge in C++, python, javascript, and React. I am an exemplary student eager to start in the world of development; I have taken alternate courses in my school about javascript, react, and agile scrum methodology, for which I am good at learning on my own; I am proactive, and I adapt quickly to changes because I like to get out of my comfort zone and which is why I learn easily.</p>
+            <div class="row">
+                <!--personal info-->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Phone Number</strong>
+                            704-500-4598
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Andresdiazjun@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Where i live</strong>
+                            North Carolina 
+                        </li>
+                    </ul>
+                </div>
+                <!--what i like-->
+                <div class="col">
+                    <h3>About Me</h3>
+                    <div class="container-whatilike">
+                        <div class="whatilike">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="whatilike">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="whatilike">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="whatilike">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="whatilike">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORTS</span>
+                        </div>
+                        <div class="whatilike">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="whatilike">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="whatilike">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button>
+                Download resume <i class="fa-duotone fa-file"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--SKILL SECTION-->
+    <section class="skills" id="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <!--Technical skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JAVASCRIPT</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>REACT</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MYSQL</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- Professional Skills -->
+                
+                
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Team player</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptability to change</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Analytical</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proactivity</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CURRICULUM SECTION-->
+    <section class="curriculum" id="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="col left">
+                    <h3>Education</h3>
+                    <div class="item lef">
+                        <h4>Software Development</h4>
+                        <span class="house">Mitchell Community College</span>
+                        <span class="date">2020-2024</span>
+                        <p>Within this school's development scope, I have learned C++ and Python and gained fundamental skills to learn additional languages in the future how would javascript be. As a student at this school, I also learned database design and SQL database language. I also learned to program for both PC and mobile devices.</p>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                    <div class="item lef">
+                        <h4>Alternative Courses</h4>
+                        <span class="house">Mitchell Community College</span>
+                        <span class="date">2020-2022</span>
+                        <p>Alternative to my school, I have taken courses in the specialized platform Udemy; among these courses is the reinforcement of HTML and CSS; I also have javascript courses with their respective React library, and right now, I am taking a MySQL course</p>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col right">
+                    <h3>More</h3>
+                    <div class="item rig">
+                        <h4>Information Technology Foundation Certificate</h4>
+                        <span class="house">Mitchell Community College</span>
+                        <span class="date">2022</span>
+                        <p>Information Technology Foundations examines IT as a discipline and its various roles and functions. The course covers IT disciplines including systems and services, network and security, scripting and programming, data management, and the business of IT.</p>
+                        <div class="conectord">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                    <div class="item rig">
+                        <h4>Agile Methodologies Scrum</h4>
+                        <span class="house">Mitchell Community College</span>
+                        <span class="date">2020-2023</span>
+                        <p>The project management methodology scrum emphasizes teamwork, responsibility, and iterative progress toward a well-defined goal. The framework starts with a simple premise: What you can see or know. After that, track progress and adjust as needed.</p>
+                        <div class="conectord">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO SECTION-->
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>PORTFOLIO</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/ttt.png" alt="">
+                    <div class="overlay">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p><a href="https://github.com/EddieAJimenez/Repo1/tree/master/02-tic-tac-toe" >see more</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container-section">
+            <h2>CONTACT ME</h2>
+            <div class="row">
+                <!-- Formulario -->
+                <form action="https://formsubmit.co/440929b13ec8237fa6c0de9097abab66" method="POST" class="col" >
+                    <input type="text" placeholder="Name" name="Name">
+                    <input type="text" placeholder="Phone number" name="PhoneNumber">
+                    <input type="text" placeholder="Email" name="Email">
+                    <input type="text" placeholder="Topic" name="Topic">
+                    <textarea type="text "name="MoreAbout" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="submit">Send Message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                North Carolina Statesville
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Call me:704-500-4598 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: Andresdiazjun@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION FOOTER-->
+    <footer>
+        <a href="#home" class="up"">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="networks">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
