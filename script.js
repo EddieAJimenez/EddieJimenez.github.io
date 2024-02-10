@@ -24,7 +24,7 @@ function skillEfect() {
         skl[1].classList.add("javascript");
         skl[2].classList.add("c");
         skl[3].classList.add("react");
-        skl[4].classList.add("mysql");
+        skl[4].classList.add("sqlserver");
         skl[5].classList.add("teamP");
         skl[6].classList.add("adaptability");
         skl[7].classList.add("analytical");
